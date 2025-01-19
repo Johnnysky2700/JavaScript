@@ -1,17 +1,19 @@
-// the first alert
-alert("Hello, world!");
+var myAge = 29;
 
-// the second alert
-alert("Hello, world!");
+if (myAge > 30){
 
+     document.write("you are over 30");
 
+} else if (myAge > 20){
 
-var youLikeMeat = false;
-var myNum = 8;
+     document.write("you are over 20!");
 
-if (myNum == 10){
-     document.write("myNum is equal to 10");
+} else if (myAge > 10){
+
+     document.write("you are over 10!");
 
 } else{
-    
+
+   document.write("you are over 10!");
+
 }
