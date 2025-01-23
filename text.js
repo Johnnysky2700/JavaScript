@@ -8,3 +8,5 @@ for(i = 0; i < links.length; i++){
 function myFunction() {
      document.getElementById("demo").innerHTML = "Paragraph changed.";
    }
+
+   document.getElementById("demo1").innerHTML = 5 + 6;
