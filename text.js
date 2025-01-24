@@ -16,3 +16,5 @@ function myFunction() {
    alert(5 + 6);
 
    console.log(5 + 6);
+
+   document.getElementById("demo2").innerHTML = "Hello Dolly.";
