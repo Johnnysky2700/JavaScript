@@ -18,3 +18,9 @@ function myFunction() {
    console.log(5 + 6);
 
    document.getElementById("demo2").innerHTML = "Hello Dolly.";
+
+   let a, b, c;
+    a = 5;
+    b = 6;
+    c = a + b;
+    document.getElementById("demo3").innerHTML = c;
