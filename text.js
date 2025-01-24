@@ -24,3 +24,6 @@ function myFunction() {
     b = 6;
     c = a + b;
     document.getElementById("demo3").innerHTML = c;
+
+    a = 5; b = 6; c = a + b;
+    document.getElementById("demo4").innerHTML = c;
