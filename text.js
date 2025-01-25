@@ -35,3 +35,7 @@ function myFunction() {
      document.getElementById("memo1").innerHTML = "Hello Dolly!";
      document.getElementById("memo2").innerHTML = "How are you?";
    }
+
+    let x;
+    x = 6;
+    document.getElementById("memo").innerHTML = x;
