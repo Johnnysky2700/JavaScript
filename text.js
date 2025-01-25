@@ -30,3 +30,8 @@ function myFunction() {
 
     document.getElementById("demo5").innerHTML =
     "Hello Dolly!";
+
+    function myFunction() {
+     document.getElementById("memo1").innerHTML = "Hello Dolly!";
+     document.getElementById("memo2").innerHTML = "How are you?";
+   }
