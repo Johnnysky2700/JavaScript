@@ -52,3 +52,8 @@ function myFunction() {
     var x2;
     x = 5;
     document.getElementById("memo6").innerHTML = x * 10;
+
+    let lastname, lastName;
+    lastName = "Doe";
+    lastname = "Peterson";
+    document.getElementById("demo6").innerHTML = lastName;
