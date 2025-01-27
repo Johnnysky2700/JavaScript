@@ -46,3 +46,5 @@ function myFunction() {
     x = 5;
     y = 6;
     document.getElementById("memo4").innerHTML = x + y;
+
+    document.getElementById("memo5").innerHTML = 5 * 10;
