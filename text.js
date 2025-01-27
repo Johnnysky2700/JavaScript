@@ -39,3 +39,5 @@ function myFunction() {
     let x;
     x = 6;
     document.getElementById("memo").innerHTML = x;
+
+    document.getElementById("memo3").innerHTML = (5 + 6) * 10;
