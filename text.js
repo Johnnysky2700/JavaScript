@@ -9,4 +9,4 @@
     } 
 
     var myString = 'i\'m a "fun" string';
-    console.log(myString.length);
+    console.log(myString.toUpperCase());
