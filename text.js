@@ -9,4 +9,4 @@
     } 
 
     var myString = 'i\'m a "fun" string';
-    console.log(myString.toLowerCase());
+    console.log(myString.indexOf("string"));
