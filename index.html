@@ -22,7 +22,22 @@ Attackers deliberately generate inputs that produce the same hash value through 
 hash function. By finding a collision, attackers can create fake digital signatures, 
 manipulate data, or undermine the security of digital certificates. Collisions can 
 compromise the integrity of databases, allowing attackers to modify or replace vital 
-information without detection.
+information without detection. <br> <br>
+
+In more detail, a hash function takes input data and generates a fixed-size string of 
+characters, which appears random. A collision occurs when two different inputs yield the 
+same hash value, undermining the uniqueness property of the hash function. 
+There are two main types of collision attacks:
+1. Birthday Attack: This exploits the probability of collisions based on the birthday paradox, 
+suggesting that in a group of 23 people, there's a better than even chance that two people 
+share a birthday. Similarly, it shows that with a certain number of random inputs, collisions 
+in hash functions can be found more easily than expected.
+2. Second Preimage Attack: This involves finding a different input that hashes to the same 
+value as a given input. This is more straightforward than a general collision attack, as it 
+targets a specific hash output.
+To mitigate the risk of collision attacks, cryptographers recommend using hash functions 
+that are resistant to such attacks, like SHA-256 or SHA-3, which have larger output sizes and 
+are more complex
 </div>   
 
     <a id="show-more">Show More</a>
