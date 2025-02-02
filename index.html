@@ -7,11 +7,24 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-   
+    <form id="my form" name="myForm" action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br/>
+        <label>Hobbies:</label> <br>
+        <input type="checkbox" name="biking" value="biking">Biking<br>
+        <input type="checkbox" name="skiing" value="skiing">skiing<br>
+        <input type="checkbox" name="driving" value="driving">driving<br>
+        <label for="colour">Fav colour:</label>
+        <select name="colour">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+        <input type="submit" name="submit" value="submit">
+       </form>
 
-    <div id="colour-changer"></div>
+       <div id="message" style="color: red;"></div>
 
-
-    <script src="text.js"></script>
-</body>
+     <script src="text.js"></script>
+   </body>
 </html>
