@@ -7,40 +7,12 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div id="content">In cryptography, a collision attack refers to an attempt to find two distinct inputs 
-(messages) that hash to the same output (hash value) in a cryptographic hash function. 
-This is problematic because the purpose of a hash function is to uniquely represent data, 
-and a collision undermines that uniqueness.
-A collision attack is a cryptographic attack that finds two different inputs that produce the 
-same hash value. This attack can undermine the security of a hash function and allow 
-attackers to bypass security measures. 
-A collision attack in cryptography refers to a method where an attacker finds two different 
-inputs that produce the same hash output. This is a significant concern because hash 
-functions are often used for data integrity, digital signatures, and password storage. 
-HOW COLLISIONS WORK
-Attackers deliberately generate inputs that produce the same hash value through the 
-hash function. By finding a collision, attackers can create fake digital signatures, 
-manipulate data, or undermine the security of digital certificates. Collisions can 
-compromise the integrity of databases, allowing attackers to modify or replace vital 
-information without detection. <br> <br>
+    <div id="message">
+        <p>THIS IS A REEEEEEEEAAAAAAALLLLLY IMPORTANT NOTIFICATION</p>
+        <P>PIE IS NICE</P>
+    </div>
 
-In more detail, a hash function takes input data and generates a fixed-size string of 
-characters, which appears random. A collision occurs when two different inputs yield the 
-same hash value, undermining the uniqueness property of the hash function. 
-There are two main types of collision attacks:
-1. Birthday Attack: This exploits the probability of collisions based on the birthday paradox, 
-suggesting that in a group of 23 people, there's a better than even chance that two people 
-share a birthday. Similarly, it shows that with a certain number of random inputs, collisions 
-in hash functions can be found more easily than expected.
-2. Second Preimage Attack: This involves finding a different input that hashes to the same 
-value as a given input. This is more straightforward than a general collision attack, as it 
-targets a specific hash output.
-To mitigate the risk of collision attacks, cryptographers recommend using hash functions 
-that are resistant to such attacks, like SHA-256 or SHA-3, which have larger output sizes and 
-are more complex
-</div>   
-
-    <a id="show-more">Show More</a>
+    <!--<div id="colour-changer"></div>-->
 
 
     <script src="text.js"></script>
